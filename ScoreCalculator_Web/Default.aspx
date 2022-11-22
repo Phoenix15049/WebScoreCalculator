@@ -5,6 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Score Calculator</title>
+
+    <script src="Scripts/bootstrap.min.js"></script>
+
+
+
+
 </head>
 <body>
     <form id="form1" runat="server">
