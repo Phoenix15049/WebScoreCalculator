@@ -23,7 +23,12 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6"><span>Left1</span></div>
+                <div class="col-md-6">
+                    <asp:TextBox ID="TextBox1" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <span>
+                    <asp:TextBox ID="TextBox2" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    </span></div>
                 <div class="col-md-6 col-lg-5"><span>Right1</span></div>
             </div>
         </div>
