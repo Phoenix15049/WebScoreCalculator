@@ -24,17 +24,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <asp:TextBox ID="TextBox1" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <br />
                     <span>
-                    <asp:TextBox ID="TextBox2" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N1" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V1" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N2" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V2" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N3" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V3" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N4" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V4" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N5" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V5" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N6" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V6" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N7" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V7" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N8" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V8" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N9" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V9" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:TextBox ID="N10" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="V10" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <br />
+                    <asp:Button ID="Clear" runat="server" Text="Clear" />
+                    <asp:Button ID="Calculate" runat="server" Text="Calculate" />
                     </span></div>
-                <div class="col-md-6 col-lg-5"><span>Right1</span></div>
+                <div class="col-md-6 col-lg-5"><span>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    </span></div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12"><button class="btn btn-primary" type="button" style="margin-left: 101px;padding-bottom: 8px;padding-top: 8px;margin-top: 10px;margin-bottom: 9px;padding-right: 30px;padding-left: 30px;margin-right: 30px;">Button</button><button class="btn btn-primary" type="button" style="padding-bottom: 8px;padding-top: 8px;margin-top: 10px;margin-bottom: 9px;margin-right: 100px;padding-right: 30px;padding-left: 30px;margin-left: 100px;">Button</button>
+                <div class="col-md-12">
                     <div class="alert alert-success" role="alert"><span><strong>Alert</strong> text.</span></div>
                 </div>
             </div>
@@ -46,3 +85,18 @@
     </form>
 </body>
 </html>
+<style>
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    input[type=text], select {
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+</style>
