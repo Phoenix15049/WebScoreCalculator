@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Score Calculator</title>
-    
+    <link rel="stylesheet" href="styles.css">
     <!-- <Resources> -->
     
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
@@ -23,40 +23,59 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div id="myDIV" class="col-md-6">
                     <span>
-                    <asp:TextBox ID="N1" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V1" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:Label ID="Label1" runat="server" Text="Nomreh"></asp:Label>
+                    &nbsp;&nbsp; Vahed<br />
+                    <asp:TextBox ID="N1" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V1" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N2" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V2" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N2" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V2" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N3" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V3" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N3" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V3" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N4" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V4" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N4" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V4" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N5" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V5" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N5" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V5" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N6" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V6" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N6" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V6" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N7" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V7" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N7" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V7" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N8" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V8" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N8" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V8" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N9" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V9" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N9" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V9" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:TextBox ID="N10" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
-                    <asp:TextBox ID="V10" runat="server" Height="25px" MaxLength="5" Width="50px"></asp:TextBox>
+                    <asp:TextBox ID="N10" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:TextBox ID="V10" runat="server" Height="25px" MaxLength="6" Width="60px"></asp:TextBox>
                     <br />
-                    <asp:Button ID="Clear" runat="server" Text="Clear" />
-                    <asp:Button ID="Calculate" runat="server" Text="Calculate" />
+                    <asp:Label ID="Answer" runat="server" CssClass="badge bg-primary text-wrap" Text="Answer" Font-Size="X-Large"></asp:Label>
+                    <br />
+                    <br />
+
+                    <asp:Button ID="Clear" runat="server" CssClass="btn btn-secondary" Text="Clear" />
+                    <asp:Button ID="Calculate" runat="server" CssClass="btn btn-success" Text="Calculate" />
+
+                    <br />
+
                     </span></div>
                 <div class="col-md-6 col-lg-5"><span>
                     <br />
@@ -74,7 +93,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="alert alert-success" role="alert"><span><strong>Alert</strong> text.</span></div>
                 </div>
             </div>
         </div>
@@ -85,18 +103,3 @@
     </form>
 </body>
 </html>
-<style>
-    div {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
-    input[type=text], select {
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-</style>

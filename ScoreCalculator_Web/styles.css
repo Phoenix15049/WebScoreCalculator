@@ -1,0 +1,28 @@
+﻿body {
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text], select {
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#myDIV {
+    width: 250px;
+    border: 15px solid coral;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border-color: lightblue;
+    }
+}
