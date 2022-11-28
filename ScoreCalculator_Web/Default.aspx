@@ -71,8 +71,8 @@
                     <br />
                     <br />
 
-                    <asp:Button ID="Clear" runat="server" CssClass="btn btn-secondary" Text="Clear" />
-                    <asp:Button ID="Calculate" runat="server" CssClass="btn btn-success" Text="Calculate" />
+                    <asp:Button ID="Clear" runat="server" CssClass="btn btn-secondary" Text="Clear" OnClick="Clear_Click" />
+                    <asp:Button ID="Calculate" runat="server" CssClass="btn btn-success" Text="Calculate" OnClick="Calculate_Click" />
 
                     <br />
 
