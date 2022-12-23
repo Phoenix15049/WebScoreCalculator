@@ -221,6 +221,7 @@ namespace ScoreCalculator_Web
                     Scores[7] = 0;
                 }
 
+
                 //--------------------------------------------------
 
                 if (N9.Text != "")
