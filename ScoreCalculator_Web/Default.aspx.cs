@@ -272,7 +272,7 @@ namespace ScoreCalculator_Web
 
         protected void Clear_Click(object sender, EventArgs e)
         {
-            Answer.Text = "ANSWER";
+            Answer.Text = "Answer";
         }
     }
 }
