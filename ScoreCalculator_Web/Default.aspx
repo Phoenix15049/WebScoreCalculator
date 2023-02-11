@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Score Calculator</title>
     <link rel="stylesheet" href="styles.css">
+
     <!-- <Resources> -->
     
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
