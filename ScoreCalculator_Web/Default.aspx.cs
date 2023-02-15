@@ -265,30 +265,6 @@ namespace ScoreCalculator_Web
             }
         }
 
-        protected void Clear_Click(object sender, EventArgs e)
-        {
-            Answer.Text = "Answer";
-            V1.Text = "";
-            V2.Text = "";
-            V3.Text = "";
-            V4.Text = "";
-            V5.Text = "";
-            V6.Text = "";
-            V7.Text = "";
-            V8.Text = "";
-            V9.Text = "";
-            V10.Text = "";
-
-            N1.Text = "";
-            N2.Text = "";
-            N3.Text = "";
-            N4.Text = "";
-            N5.Text = "";
-            N6.Text = "";
-            N7.Text = "";
-            N8.Text = "";
-            N9.Text = "";
-            N10.Text = "";
-        }
+        
     }
 }
